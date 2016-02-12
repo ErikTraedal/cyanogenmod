@@ -18,7 +18,7 @@ Initialize your local repository using the CyanogenMod trees:
 
 Add device specific files to your local repository:
 
-	ln -s ../cyanogenmod/manifests/xiaomi_hermes.xml .repo/manifests/
+	ln -s "$(pwd)/../cyanogenmod/manifests/xiaomi_hermes.xml" .repo/manifests
 
 Synchronize your local repository:
 
