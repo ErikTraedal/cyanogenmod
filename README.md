@@ -9,7 +9,7 @@ Install the repo binary once on your machine:
 	
 Prepare your local work dir:
 
-	git clone git@github.com:tomdegryse/cyanogenmod.git
+	git clone git@github.com:tomdegryse/cyanogenmod.git -b cm-12.1
 
 Initialize your local repository using the CyanogenMod trees:
 
