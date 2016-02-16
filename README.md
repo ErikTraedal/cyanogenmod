@@ -55,7 +55,6 @@ Install the build packages:
 Prepare the device-specific code:
 
 	source build/envsetup.sh
-	breakfast hermes
 
 Start the build:
 
