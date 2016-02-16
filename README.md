@@ -26,6 +26,11 @@ Add device specific files to your local repository:
 Synchronize your local repository:
 
 	repo sync
+	
+Apply pacthes:
+
+	chmod a+x device/xiaomi/hermes/patches/apply.sh
+	device/xiaomi/hermes/patches/apply.sh
 
 ### Setup build environment
 
