@@ -21,7 +21,7 @@ Initialize your local repository using the CyanogenMod trees:
 Add device specific files to your local repository:
 
 	mkdir .repo/local_manifests	
-	ln -s "$(pwd)/../cyanogenmod/manifests/letv_x600.xml" .repo/local_manifests
+	ln -s "$(pwd)/../cyanogenmod/manifests/letv_x600.xml" .repo/local_manifests/roomservice.xml
 
 Synchronize your local repository:
 
