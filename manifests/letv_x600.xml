@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- You can have as many remote repositories as you like -->
+  <remote name="gray" fetch="git://github.com/tomdegryse/" />
+
+  <!-- List all the repositories you want to fetch -->
+  <!-- "name": git repository's name on hosting server
+       "remote": the remote host from above (if not the default)
+       "revision": commitish to checkout (if not the default)
+       "path": directory where git repository gets cloned/synced -->
+  <project name="android_device_letv_x600" revision="cm-12.1" remote="gray" path="device/letv/x600" />
+  <project name="android_vendor_letv_x600" revision="cm-12.1" remote="gray" path="vendor/letv/x600" /> 
+  <project name="android_vendor_mediatek" revision="cm-12.1" remote="gray" path="vendor/mediatek" />
+
+  <!-- Replace default CyanogenMod repositories -->
+</manifest>
