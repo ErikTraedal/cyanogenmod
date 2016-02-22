@@ -29,7 +29,6 @@ Synchronize your local repository:
 	
 Apply pacthes:
 
-	chmod a+x device/letv/x600/patches/apply.sh
 	device/letv/x600/patches/apply.sh
 
 ### Setup build environment
