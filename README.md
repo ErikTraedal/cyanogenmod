@@ -21,7 +21,7 @@ Initialize your local repository using the CyanogenMod trees:
 Add device specific files to your local repository:
 
 	mkdir .repo/local_manifests	
-	ln -s "$(pwd)/../cyanogenmod/manifests/xiaomi_hermes.xml" .repo/local_manifests
+	ln -s "$(pwd)/../cyanogenmod/manifests/letv_x600.xml" .repo/local_manifests
 
 Synchronize your local repository:
 
@@ -29,8 +29,8 @@ Synchronize your local repository:
 	
 Apply pacthes:
 
-	chmod a+x device/xiaomi/hermes/patches/apply.sh
-	device/xiaomi/hermes/patches/apply.sh
+	chmod a+x device/letv/x600/patches/apply.sh
+	device/letv/x600/patches/apply.sh
 
 ### Setup build environment
 
@@ -59,4 +59,4 @@ Prepare the device-specific code:
 Start the build:
 
 	croot
-	brunch hermes
+	brunch x600
